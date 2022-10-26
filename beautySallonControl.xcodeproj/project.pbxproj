@@ -9,23 +9,49 @@
 /* Begin PBXBuildFile section */
 		2270097C28FDA71B00FD5ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270097B28FDA71B00FD5ABE /* AppDelegate.swift */; };
 		2270097E28FDA71B00FD5ABE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270097D28FDA71B00FD5ABE /* SceneDelegate.swift */; };
-		2270098028FDA71B00FD5ABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270097F28FDA71B00FD5ABE /* ViewController.swift */; };
-		2270098328FDA71B00FD5ABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2270098128FDA71B00FD5ABE /* Main.storyboard */; };
 		2270098628FDA71B00FD5ABE /* beautySallonControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2270098428FDA71B00FD5ABE /* beautySallonControl.xcdatamodeld */; };
 		2270098828FDA72000FD5ABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2270098728FDA72000FD5ABE /* Assets.xcassets */; };
 		2270098B28FDA72000FD5ABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2270098928FDA72000FD5ABE /* LaunchScreen.storyboard */; };
+		227009A228FDB3EF00FD5ABE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009A128FDB3EF00FD5ABE /* MenuViewController.swift */; };
+		227009A428FDB40E00FD5ABE /* MenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009A328FDB40E00FD5ABE /* MenuPresenter.swift */; };
+		227009A628FDB43800FD5ABE /* IdentifireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009A528FDB43800FD5ABE /* IdentifireViewController.swift */; };
+		227009A828FDB44A00FD5ABE /* IdentifirePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009A728FDB44A00FD5ABE /* IdentifirePresenter.swift */; };
+		227009AA28FDB49300FD5ABE /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009A928FDB49300FD5ABE /* TabBarController.swift */; };
+		227009AC28FDB4A000FD5ABE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009AB28FDB4A000FD5ABE /* MainViewController.swift */; };
+		227009AE28FDB4AF00FD5ABE /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009AD28FDB4AF00FD5ABE /* MainPresenter.swift */; };
+		227009B028FDB4C300FD5ABE /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009AF28FDB4C300FD5ABE /* CalendarViewController.swift */; };
+		227009B228FDB4CF00FD5ABE /* CalendarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009B128FDB4CF00FD5ABE /* CalendarPresenter.swift */; };
+		227009B428FDB4DE00FD5ABE /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009B328FDB4DE00FD5ABE /* ExpensesViewController.swift */; };
+		227009B628FDB4E900FD5ABE /* ExpensesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009B528FDB4E900FD5ABE /* ExpensesPresenter.swift */; };
+		227009B828FDB4F900FD5ABE /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009B728FDB4F900FD5ABE /* ReportViewController.swift */; };
+		227009BA28FDB50200FD5ABE /* ReportPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009B928FDB50200FD5ABE /* ReportPresenter.swift */; };
+		227009BC28FDB60800FD5ABE /* SceneBuildManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009BB28FDB60800FD5ABE /* SceneBuildManager.swift */; };
+		227009BE28FDBCDA00FD5ABE /* TabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009BD28FDBCDA00FD5ABE /* TabBarPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2270097828FDA71B00FD5ABE /* beautySallonControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beautySallonControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2270097B28FDA71B00FD5ABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2270097D28FDA71B00FD5ABE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2270097F28FDA71B00FD5ABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2270098228FDA71B00FD5ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2270098528FDA71B00FD5ABE /* beautySallonControl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = beautySallonControl.xcdatamodel; sourceTree = "<group>"; };
 		2270098728FDA72000FD5ABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2270098A28FDA72000FD5ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2270098C28FDA72000FD5ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227009A128FDB3EF00FD5ABE /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		227009A328FDB40E00FD5ABE /* MenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenter.swift; sourceTree = "<group>"; };
+		227009A528FDB43800FD5ABE /* IdentifireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifireViewController.swift; sourceTree = "<group>"; };
+		227009A728FDB44A00FD5ABE /* IdentifirePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifirePresenter.swift; sourceTree = "<group>"; };
+		227009A928FDB49300FD5ABE /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		227009AB28FDB4A000FD5ABE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		227009AD28FDB4AF00FD5ABE /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		227009AF28FDB4C300FD5ABE /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		227009B128FDB4CF00FD5ABE /* CalendarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPresenter.swift; sourceTree = "<group>"; };
+		227009B328FDB4DE00FD5ABE /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
+		227009B528FDB4E900FD5ABE /* ExpensesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesPresenter.swift; sourceTree = "<group>"; };
+		227009B728FDB4F900FD5ABE /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		227009B928FDB50200FD5ABE /* ReportPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportPresenter.swift; sourceTree = "<group>"; };
+		227009BB28FDB60800FD5ABE /* SceneBuildManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneBuildManager.swift; sourceTree = "<group>"; };
+		227009BD28FDBCDA00FD5ABE /* TabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +84,149 @@
 		2270097A28FDA71B00FD5ABE /* beautySallonControl */ = {
 			isa = PBXGroup;
 			children = (
-				2270097B28FDA71B00FD5ABE /* AppDelegate.swift */,
-				2270097D28FDA71B00FD5ABE /* SceneDelegate.swift */,
-				2270097F28FDA71B00FD5ABE /* ViewController.swift */,
-				2270098128FDA71B00FD5ABE /* Main.storyboard */,
-				2270098728FDA72000FD5ABE /* Assets.xcassets */,
-				2270098928FDA72000FD5ABE /* LaunchScreen.storyboard */,
+				2270099228FDAD7500FD5ABE /* Application */,
+				2270099428FDB0ED00FD5ABE /* Core */,
+				2270099528FDB0F400FD5ABE /* Scenes */,
 				2270098C28FDA72000FD5ABE /* Info.plist */,
 				2270098428FDA71B00FD5ABE /* beautySallonControl.xcdatamodeld */,
 			);
 			path = beautySallonControl;
+			sourceTree = "<group>";
+		};
+		2270099228FDAD7500FD5ABE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2270099328FDADE000FD5ABE /* Resources */,
+				2270097D28FDA71B00FD5ABE /* SceneDelegate.swift */,
+				2270097B28FDA71B00FD5ABE /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2270099328FDADE000FD5ABE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2270098728FDA72000FD5ABE /* Assets.xcassets */,
+				2270098928FDA72000FD5ABE /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2270099428FDB0ED00FD5ABE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2270099928FDB15B00FD5ABE /* Entities */,
+				2270099828FDB15000FD5ABE /* Extension */,
+				2270099728FDB14800FD5ABE /* Managers */,
+				2270099628FDB11D00FD5ABE /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2270099528FDB0F400FD5ABE /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				227009A028FDB3C200FD5ABE /* Menu */,
+				2270099A28FDB22200FD5ABE /* Identifire */,
+				2270099B28FDB2BB00FD5ABE /* TabBar */,
+				2270099C28FDB2DC00FD5ABE /* Main */,
+				2270099D28FDB2E700FD5ABE /* Calendar */,
+				2270099E28FDB2EF00FD5ABE /* Expenses */,
+				2270099F28FDB37400FD5ABE /* Report */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2270099628FDB11D00FD5ABE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2270099728FDB14800FD5ABE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				227009BB28FDB60800FD5ABE /* SceneBuildManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2270099828FDB15000FD5ABE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2270099928FDB15B00FD5ABE /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2270099A28FDB22200FD5ABE /* Identifire */ = {
+			isa = PBXGroup;
+			children = (
+				227009A528FDB43800FD5ABE /* IdentifireViewController.swift */,
+				227009A728FDB44A00FD5ABE /* IdentifirePresenter.swift */,
+			);
+			path = Identifire;
+			sourceTree = "<group>";
+		};
+		2270099B28FDB2BB00FD5ABE /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				227009A928FDB49300FD5ABE /* TabBarController.swift */,
+				227009BD28FDBCDA00FD5ABE /* TabBarPresenter.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		2270099C28FDB2DC00FD5ABE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				227009AB28FDB4A000FD5ABE /* MainViewController.swift */,
+				227009AD28FDB4AF00FD5ABE /* MainPresenter.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2270099D28FDB2E700FD5ABE /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				227009AF28FDB4C300FD5ABE /* CalendarViewController.swift */,
+				227009B128FDB4CF00FD5ABE /* CalendarPresenter.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		2270099E28FDB2EF00FD5ABE /* Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				227009B328FDB4DE00FD5ABE /* ExpensesViewController.swift */,
+				227009B528FDB4E900FD5ABE /* ExpensesPresenter.swift */,
+			);
+			path = Expenses;
+			sourceTree = "<group>";
+		};
+		2270099F28FDB37400FD5ABE /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				227009B728FDB4F900FD5ABE /* ReportViewController.swift */,
+				227009B928FDB50200FD5ABE /* ReportPresenter.swift */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		227009A028FDB3C200FD5ABE /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				227009A128FDB3EF00FD5ABE /* MenuViewController.swift */,
+				227009A328FDB40E00FD5ABE /* MenuPresenter.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +289,6 @@
 			files = (
 				2270098B28FDA72000FD5ABE /* LaunchScreen.storyboard in Resources */,
 				2270098828FDA72000FD5ABE /* Assets.xcassets in Resources */,
-				2270098328FDA71B00FD5ABE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +299,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227009B228FDB4CF00FD5ABE /* CalendarPresenter.swift in Sources */,
 				2270098628FDA71B00FD5ABE /* beautySallonControl.xcdatamodeld in Sources */,
-				2270098028FDA71B00FD5ABE /* ViewController.swift in Sources */,
+				227009B428FDB4DE00FD5ABE /* ExpensesViewController.swift in Sources */,
+				227009AA28FDB49300FD5ABE /* TabBarController.swift in Sources */,
+				227009BA28FDB50200FD5ABE /* ReportPresenter.swift in Sources */,
+				227009A628FDB43800FD5ABE /* IdentifireViewController.swift in Sources */,
+				227009B028FDB4C300FD5ABE /* CalendarViewController.swift in Sources */,
 				2270097C28FDA71B00FD5ABE /* AppDelegate.swift in Sources */,
+				227009BE28FDBCDA00FD5ABE /* TabBarPresenter.swift in Sources */,
 				2270097E28FDA71B00FD5ABE /* SceneDelegate.swift in Sources */,
+				227009B828FDB4F900FD5ABE /* ReportViewController.swift in Sources */,
+				227009AE28FDB4AF00FD5ABE /* MainPresenter.swift in Sources */,
+				227009A428FDB40E00FD5ABE /* MenuPresenter.swift in Sources */,
+				227009AC28FDB4A000FD5ABE /* MainViewController.swift in Sources */,
+				227009BC28FDB60800FD5ABE /* SceneBuildManager.swift in Sources */,
+				227009B628FDB4E900FD5ABE /* ExpensesPresenter.swift in Sources */,
+				227009A828FDB44A00FD5ABE /* IdentifirePresenter.swift in Sources */,
+				227009A228FDB3EF00FD5ABE /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2270098128FDA71B00FD5ABE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2270098228FDA71B00FD5ABE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2270098928FDA72000FD5ABE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,9 +460,8 @@
 				INFOPLIST_FILE = beautySallonControl/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +469,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = holog.beautySallonControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,9 +490,8 @@
 				INFOPLIST_FILE = beautySallonControl/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +499,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = holog.beautySallonControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

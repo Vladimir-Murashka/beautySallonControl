@@ -1,20 +1,20 @@
 //
-//  ExpensesViewController.swift
+//  ProfileViewController.swift
 //  beautySallonControl
 //
-//  Created by Swift Learning on 17.10.2022.
+//  Created by Swift Learning on 27.10.2022.
 //
 
 import UIKit
 
-// MARK: - ExpensesViewProtocol
+// MARK: - ProfileViewProtocol
 
-protocol ExpensesViewProtocol: UIViewController {}
+protocol ProfileViewProtocol: UIViewController {}
 
-// MARK: - ExpensesViewController
+// MARK: - ProfileViewController
 
-final class ExpensesViewController: UIViewController {
-    var presenter: ExpensesPresenterProtocol?
+final class ProfileViewController: UIViewController {
+    var presenter: ProfilePresenterProtocol?
     
     // MARK: - PrivateProperties
     
@@ -29,15 +29,15 @@ final class ExpensesViewController: UIViewController {
 
 }
 
-// MARK: - ExpensesViewProtocol Impl
+// MARK: - ProfileViewProtocol Impl
 
-extension ExpensesViewController: ExpensesViewProtocol {}
+extension ProfileViewController: ProfileViewProtocol {}
 
 // MARK: - PrivateMethods
 
-private extension ExpensesViewController {
+private extension ProfileViewController {
     func setupViewController() {
-        view.backgroundColor = .orange
+        view.backgroundColor = .systemGray
         addSubViews()
         setupConstraints()
     }
@@ -48,4 +48,3 @@ private extension ExpensesViewController {
         NSLayoutConstraint.activate([])
     }
 }
-

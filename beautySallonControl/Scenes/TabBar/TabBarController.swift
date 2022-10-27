@@ -7,44 +7,58 @@
 
 import UIKit
 
-// MARK: - TabBarProtocol
-
-protocol TabBarProtocol: UITabBarController {}
-
-// MARK: - TabBarController
-
 final class TabBarController: UITabBarController {
-    var presenter: TabBarPresenterProtocol?
-    
     // MARK: - PrivateProperties
+    
+    private let sceneBuildManager: Buildable = SceneBuildManager()
     
     // MARK: - LifeCycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupViewController()
+        setupTabBarController()
     }
-    
-    // MARK: - Actions
-
 }
 
-// MARK: - TabBarProtocol Impl
-
-extension TabBarController: TabBarProtocol {}
-
-// MARK: - PrivateMethods
-
 private extension TabBarController {
-    func setupViewController() {
-        view.backgroundColor = .systemGray
-        addSubViews()
-        setupConstraints()
-    }
-    
-    func addSubViews() {}
-    
-    func setupConstraints() {
-        NSLayoutConstraint.activate([])
+    func setupTabBarController() {
+        let profileViewController = sceneBuildManager.buildProfileScreen()
+        let mainViewController = sceneBuildManager.buildMainScreen()
+        let calendarViewController = sceneBuildManager.buildCalendarScreen()
+        let expensesViewController = sceneBuildManager.buildExpensesScreen()
+        let reportViewController = sceneBuildManager.buildReportScreen()
+        
+        let profileNavigationController = UINavigationController(rootViewController: profileViewController)
+        let mainNavigationController = UINavigationController(rootViewController: mainViewController)
+        let calendarNavigationController = UINavigationController(rootViewController: calendarViewController)
+        let expensesNavigationController = UINavigationController(rootViewController: expensesViewController)
+        let reportNavigationController = UINavigationController(rootViewController: reportViewController)
+        
+        profileViewController.tabBarItem.title = "Профиль"
+        profileViewController.tabBarItem.image = UIImage(systemName: "person")
+        
+        mainNavigationController.tabBarItem.title = "Главная"
+        mainNavigationController.tabBarItem.image = UIImage(systemName: "person")
+        
+        calendarNavigationController.tabBarItem.title = "Календарь"
+        calendarNavigationController.tabBarItem.image = UIImage(systemName: "person")
+        
+        expensesNavigationController.tabBarItem.title = "Расходы"
+        expensesNavigationController.tabBarItem.image = UIImage(systemName: "person")
+        
+        reportNavigationController.tabBarItem.title = "Отчет"
+        reportNavigationController.tabBarItem.image = UIImage(systemName: "person")
+        
+        tabBar.tintColor = .red
+        tabBar.backgroundColor = .systemGray6
+        tabBar.unselectedItemTintColor = .black
+        
+        viewControllers = [
+            profileNavigationController,
+            mainNavigationController,
+            calendarNavigationController,
+            expensesNavigationController,
+            reportNavigationController
+        ]
     }
 }

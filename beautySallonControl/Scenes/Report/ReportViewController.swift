@@ -37,7 +37,7 @@ extension ReportViewController: ReportViewProtocol {}
 
 private extension ReportViewController {
     func setupViewController() {
-        view.backgroundColor = .systemGray
+        view.backgroundColor = .purple
         addSubViews()
         setupConstraints()
     }

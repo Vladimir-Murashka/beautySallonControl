@@ -37,7 +37,7 @@ extension MenuViewController: MenuViewProtocol {}
 
 private extension MenuViewController {
     func setupViewController() {
-        view.backgroundColor = .systemGray
+        view.backgroundColor = .yellow
         addSubViews()
         setupConstraints()
     }

@@ -37,7 +37,7 @@ extension MainViewController: MainViewProtocol {}
 
 private extension MainViewController {
     func setupViewController() {
-        view.backgroundColor = .systemGray
+        view.backgroundColor = .green
         addSubViews()
         setupConstraints()
     }

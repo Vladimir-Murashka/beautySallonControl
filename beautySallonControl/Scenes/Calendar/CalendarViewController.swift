@@ -37,7 +37,7 @@ extension CalendarViewController: CalendarViewProtocol {}
 
 private extension CalendarViewController {
     func setupViewController() {
-        view.backgroundColor = .systemGray
+        view.backgroundColor = .blue
         addSubViews()
         setupConstraints()
     }

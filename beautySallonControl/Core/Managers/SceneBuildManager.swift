@@ -6,7 +6,14 @@
 //
 
 protocol Buildable {
+    func buildTabBarScreen() -> TabBarController
     func buildMenuScreen() -> MenuViewController
+    func buildIdentifireScreen() -> IdentifireViewController
+    func buildMainScreen() -> MainViewController
+    func buildCalendarScreen() -> CalendarViewController
+    func buildExpensesScreen() -> ExpensesViewController
+    func buildReportScreen() -> ReportViewController
+    func buildProfileScreen() -> ProfileViewController
 }
 
 final class SceneBuildManager {}
@@ -71,6 +78,16 @@ extension SceneBuildManager: Buildable {
     func buildReportScreen() -> ReportViewController {
         let viewController = ReportViewController()
         let presenter = ReportPresenter(sceneBuildManager: self)
+        
+        viewController.presenter = presenter
+        presenter.viewController = viewController
+        
+        return viewController
+    }
+    
+    func buildProfileScreen() -> ProfileViewController {
+        let viewController = ProfileViewController()
+        let presenter = ProfilePresenter(sceneBuildManager: self)
         
         viewController.presenter = presenter
         presenter.viewController = viewController

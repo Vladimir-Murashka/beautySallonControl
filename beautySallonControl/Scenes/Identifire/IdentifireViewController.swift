@@ -37,7 +37,7 @@ extension IdentifireViewController: IdentifireViewProtocol {}
 
 private extension IdentifireViewController {
     func setupViewController() {
-        view.backgroundColor = .systemGray
+        view.backgroundColor = .red
         addSubViews()
         setupConstraints()
     }

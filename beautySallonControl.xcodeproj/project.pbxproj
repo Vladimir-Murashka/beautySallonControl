@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224C2D27290AF29A00BE971D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C2D26290AF29A00BE971D /* ProfileViewController.swift */; };
+		224C2D29290AF2B100BE971D /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C2D28290AF2B100BE971D /* ProfilePresenter.swift */; };
 		2270097C28FDA71B00FD5ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270097B28FDA71B00FD5ABE /* AppDelegate.swift */; };
 		2270097E28FDA71B00FD5ABE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270097D28FDA71B00FD5ABE /* SceneDelegate.swift */; };
 		2270098628FDA71B00FD5ABE /* beautySallonControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2270098428FDA71B00FD5ABE /* beautySallonControl.xcdatamodeld */; };
@@ -26,10 +28,11 @@
 		227009B828FDB4F900FD5ABE /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009B728FDB4F900FD5ABE /* ReportViewController.swift */; };
 		227009BA28FDB50200FD5ABE /* ReportPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009B928FDB50200FD5ABE /* ReportPresenter.swift */; };
 		227009BC28FDB60800FD5ABE /* SceneBuildManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009BB28FDB60800FD5ABE /* SceneBuildManager.swift */; };
-		227009BE28FDBCDA00FD5ABE /* TabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227009BD28FDBCDA00FD5ABE /* TabBarPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		224C2D26290AF29A00BE971D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		224C2D28290AF2B100BE971D /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
 		2270097828FDA71B00FD5ABE /* beautySallonControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beautySallonControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2270097B28FDA71B00FD5ABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2270097D28FDA71B00FD5ABE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +54,6 @@
 		227009B728FDB4F900FD5ABE /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		227009B928FDB50200FD5ABE /* ReportPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportPresenter.swift; sourceTree = "<group>"; };
 		227009BB28FDB60800FD5ABE /* SceneBuildManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneBuildManager.swift; sourceTree = "<group>"; };
-		227009BD28FDBCDA00FD5ABE /* TabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		224C2D25290AF20000BE971D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				224C2D26290AF29A00BE971D /* ProfileViewController.swift */,
+				224C2D28290AF2B100BE971D /* ProfilePresenter.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		2270096F28FDA71B00FD5ABE = {
 			isa = PBXGroup;
 			children = (
@@ -126,9 +137,10 @@
 		2270099528FDB0F400FD5ABE /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				2270099B28FDB2BB00FD5ABE /* TabBar */,
+				224C2D25290AF20000BE971D /* Profile */,
 				227009A028FDB3C200FD5ABE /* Menu */,
 				2270099A28FDB22200FD5ABE /* Identifire */,
-				2270099B28FDB2BB00FD5ABE /* TabBar */,
 				2270099C28FDB2DC00FD5ABE /* Main */,
 				2270099D28FDB2E700FD5ABE /* Calendar */,
 				2270099E28FDB2EF00FD5ABE /* Expenses */,
@@ -179,7 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				227009A928FDB49300FD5ABE /* TabBarController.swift */,
-				227009BD28FDBCDA00FD5ABE /* TabBarPresenter.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -307,9 +318,10 @@
 				227009A628FDB43800FD5ABE /* IdentifireViewController.swift in Sources */,
 				227009B028FDB4C300FD5ABE /* CalendarViewController.swift in Sources */,
 				2270097C28FDA71B00FD5ABE /* AppDelegate.swift in Sources */,
-				227009BE28FDBCDA00FD5ABE /* TabBarPresenter.swift in Sources */,
+				224C2D27290AF29A00BE971D /* ProfileViewController.swift in Sources */,
 				2270097E28FDA71B00FD5ABE /* SceneDelegate.swift in Sources */,
 				227009B828FDB4F900FD5ABE /* ReportViewController.swift in Sources */,
+				224C2D29290AF2B100BE971D /* ProfilePresenter.swift in Sources */,
 				227009AE28FDB4AF00FD5ABE /* MainPresenter.swift in Sources */,
 				227009A428FDB40E00FD5ABE /* MenuPresenter.swift in Sources */,
 				227009AC28FDB4A000FD5ABE /* MainViewController.swift in Sources */,
